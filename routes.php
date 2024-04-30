@@ -23,5 +23,8 @@
 	
 	
 	$router->get('/note','controllers/notes/show.php');
+	$router->patch('/note','controllers/notes/update.php');
+	
+	
 	$router->delete('/note','controllers/notes/destroy.php');
 	
