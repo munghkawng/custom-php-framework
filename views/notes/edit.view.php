@@ -10,7 +10,7 @@
 			
 			<form method="POST" action="/note">
 				<input type="hidden" name="_method" value="PATCH">
-				<input type="hidden" name="id" value="<?= $note['body'] ?>">
+				<input type="hidden" name="id" value="<?= $note['id'] ?>" />
 				
 				<div class="col-6">
 					<label for="body" class="block text-sm font-medium leading-6 text-gray-900">Description</label>
