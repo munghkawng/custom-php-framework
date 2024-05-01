@@ -14,7 +14,8 @@
 			return static::$container;
 		}
 		
-		public static function bind($key,$resolver){
+		public static function bind($key,$resolver): void
+		{
 			static::container()->bind($key,$resolver);
 		}
 		
