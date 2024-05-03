@@ -6,7 +6,7 @@
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 	
-	$errors = [];
+	
 	
 	//validate the inputs
 	if(!Validator::email($email)){
